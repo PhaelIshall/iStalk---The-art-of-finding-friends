@@ -1,5 +1,4 @@
-# High Fly
-Similar to floppy bird, but a fly that looks high.
+# iStalk - The art of finding friends
 
 ![Alt text](https://github.com/PhaelIshall/iStalk---The-art-of-finding-friends/blob/master/istalk.jpg)  
 :-------------------------:|:-------------------------:
