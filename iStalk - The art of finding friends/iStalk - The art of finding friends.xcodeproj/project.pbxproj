@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BD2C721E947151001BA818 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BD2C711E947151001BA818 /* AppDelegate.swift */; };
+		01BD2C741E947151001BA818 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BD2C731E947151001BA818 /* ViewController.swift */; };
+		01BD2C771E947151001BA818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BD2C751E947151001BA818 /* Main.storyboard */; };
+		01BD2C791E947151001BA818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01BD2C781E947151001BA818 /* Assets.xcassets */; };
+		01BD2C7C1E947151001BA818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BD2C7A1E947151001BA818 /* LaunchScreen.storyboard */; };
+		6C4913D7D65F861674422D6C /* Pods_iStalk___The_art_of_finding_friends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342C94154ED714217E300299 /* Pods_iStalk___The_art_of_finding_friends.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01BD2C6E1E947151001BA818 /* iStalk - The art of finding friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iStalk - The art of finding friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BD2C711E947151001BA818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01BD2C731E947151001BA818 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01BD2C761E947151001BA818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01BD2C781E947151001BA818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01BD2C7B1E947151001BA818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01BD2C7D1E947151001BA818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342C94154ED714217E300299 /* Pods_iStalk___The_art_of_finding_friends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iStalk___The_art_of_finding_friends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5393CCCAD88CCA61EBC563A /* Pods-iStalk - The art of finding friends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iStalk - The art of finding friends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iStalk - The art of finding friends/Pods-iStalk - The art of finding friends.debug.xcconfig"; sourceTree = "<group>"; };
+		C60D5D58E06F42F09E3BB63A /* Pods-iStalk - The art of finding friends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iStalk - The art of finding friends.release.xcconfig"; path = "Pods/Target Support Files/Pods-iStalk - The art of finding friends/Pods-iStalk - The art of finding friends.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01BD2C6B1E947151001BA818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4913D7D65F861674422D6C /* Pods_iStalk___The_art_of_finding_friends.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01BD2C651E947151001BA818 = {
+			isa = PBXGroup;
+			children = (
+				01BD2C701E947151001BA818 /* iStalk - The art of finding friends */,
+				01BD2C6F1E947151001BA818 /* Products */,
+				3BAD5BF088A6398FD7CFC73B /* Pods */,
+				193CAA939B78BEA717E9A92F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01BD2C6F1E947151001BA818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01BD2C6E1E947151001BA818 /* iStalk - The art of finding friends.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01BD2C701E947151001BA818 /* iStalk - The art of finding friends */ = {
+			isa = PBXGroup;
+			children = (
+				01BD2C711E947151001BA818 /* AppDelegate.swift */,
+				01BD2C731E947151001BA818 /* ViewController.swift */,
+				01BD2C751E947151001BA818 /* Main.storyboard */,
+				01BD2C781E947151001BA818 /* Assets.xcassets */,
+				01BD2C7A1E947151001BA818 /* LaunchScreen.storyboard */,
+				01BD2C7D1E947151001BA818 /* Info.plist */,
+			);
+			path = "iStalk - The art of finding friends";
+			sourceTree = "<group>";
+		};
+		193CAA939B78BEA717E9A92F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342C94154ED714217E300299 /* Pods_iStalk___The_art_of_finding_friends.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BAD5BF088A6398FD7CFC73B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5393CCCAD88CCA61EBC563A /* Pods-iStalk - The art of finding friends.debug.xcconfig */,
+				C60D5D58E06F42F09E3BB63A /* Pods-iStalk - The art of finding friends.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01BD2C6D1E947151001BA818 /* iStalk - The art of finding friends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BD2C801E947151001BA818 /* Build configuration list for PBXNativeTarget "iStalk - The art of finding friends" */;
+			buildPhases = (
+				55767F962E5E419F3029BE03 /* [CP] Check Pods Manifest.lock */,
+				01BD2C6A1E947151001BA818 /* Sources */,
+				01BD2C6B1E947151001BA818 /* Frameworks */,
+				01BD2C6C1E947151001BA818 /* Resources */,
+				BA8D183F2F4259A6C439C6A0 /* [CP] Embed Pods Frameworks */,
+				F84319104E0F998A6753253A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iStalk - The art of finding friends";
+			productName = "iStalk - The art of finding friends";
+			productReference = 01BD2C6E1E947151001BA818 /* iStalk - The art of finding friends.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01BD2C661E947151001BA818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = WBR;
+				TargetAttributes = {
+					01BD2C6D1E947151001BA818 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 01BD2C691E947151001BA818 /* Build configuration list for PBXProject "iStalk - The art of finding friends" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01BD2C651E947151001BA818;
+			productRefGroup = 01BD2C6F1E947151001BA818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01BD2C6D1E947151001BA818 /* iStalk - The art of finding friends */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01BD2C6C1E947151001BA818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BD2C7C1E947151001BA818 /* LaunchScreen.storyboard in Resources */,
+				01BD2C791E947151001BA818 /* Assets.xcassets in Resources */,
+				01BD2C771E947151001BA818 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55767F962E5E419F3029BE03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA8D183F2F4259A6C439C6A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iStalk - The art of finding friends/Pods-iStalk - The art of finding friends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F84319104E0F998A6753253A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iStalk - The art of finding friends/Pods-iStalk - The art of finding friends-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01BD2C6A1E947151001BA818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BD2C741E947151001BA818 /* ViewController.swift in Sources */,
+				01BD2C721E947151001BA818 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01BD2C751E947151001BA818 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BD2C761E947151001BA818 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01BD2C7A1E947151001BA818 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BD2C7B1E947151001BA818 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01BD2C7E1E947151001BA818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01BD2C7F1E947151001BA818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01BD2C811E947151001BA818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5393CCCAD88CCA61EBC563A /* Pods-iStalk - The art of finding friends.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iStalk - The art of finding friends/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WBR.iStalk---The-art-of-finding-friends";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		01BD2C821E947151001BA818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60D5D58E06F42F09E3BB63A /* Pods-iStalk - The art of finding friends.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iStalk - The art of finding friends/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WBR.iStalk---The-art-of-finding-friends";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01BD2C691E947151001BA818 /* Build configuration list for PBXProject "iStalk - The art of finding friends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BD2C7E1E947151001BA818 /* Debug */,
+				01BD2C7F1E947151001BA818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BD2C801E947151001BA818 /* Build configuration list for PBXNativeTarget "iStalk - The art of finding friends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BD2C811E947151001BA818 /* Debug */,
+				01BD2C821E947151001BA818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01BD2C661E947151001BA818 /* Project object */;
+}
