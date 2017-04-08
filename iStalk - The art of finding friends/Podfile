@@ -6,7 +6,11 @@ target 'iStalk - The art of finding friends' do
   use_frameworks!
 pod 'GoogleMaps'
 pod 'GooglePlaces'
-pod 'Firebase'
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'FacebookCore'
+pod 'FacebookLogin'
+pod 'FacebookShare'
   # Pods for iStalk - The art of finding friends
 
 end

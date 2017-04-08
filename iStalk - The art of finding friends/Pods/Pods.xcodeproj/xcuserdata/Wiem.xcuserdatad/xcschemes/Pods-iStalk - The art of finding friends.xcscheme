@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A43AA40FBC425F63C146CDD61BA03A7D"
+               BlueprintIdentifier = "2ABCB68D332F0F83ACD0BD001B9CEB1E"
                BuildableName = "Pods_iStalk___The_art_of_finding_friends.framework"
                BlueprintName = "Pods-iStalk - The art of finding friends"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A43AA40FBC425F63C146CDD61BA03A7D"
+            BlueprintIdentifier = "2ABCB68D332F0F83ACD0BD001B9CEB1E"
             BuildableName = "Pods_iStalk___The_art_of_finding_friends.framework"
             BlueprintName = "Pods-iStalk - The art of finding friends"
             ReferencedContainer = "container:Pods.xcodeproj">
