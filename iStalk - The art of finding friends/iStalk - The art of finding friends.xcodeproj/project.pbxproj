@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		01879D311E99A61F0092CAAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01879D301E99A61F0092CAAF /* GoogleService-Info.plist */; };
+		01B853F31E99D5E800AA6DBF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B853F11E99D5E800AA6DBF /* FBSDKCoreKit.framework */; };
+		01B853F41E99D5E800AA6DBF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B853F21E99D5E800AA6DBF /* FBSDKLoginKit.framework */; };
 		01BD2C721E947151001BA818 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BD2C711E947151001BA818 /* AppDelegate.swift */; };
 		01BD2C741E947151001BA818 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BD2C731E947151001BA818 /* ViewController.swift */; };
 		01BD2C771E947151001BA818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BD2C751E947151001BA818 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		01879D301E99A61F0092CAAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		01B853F11E99D5E800AA6DBF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		01B853F21E99D5E800AA6DBF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		01BD2C6E1E947151001BA818 /* iStalk - The art of finding friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iStalk - The art of finding friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01BD2C711E947151001BA818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01BD2C731E947151001BA818 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C4913D7D65F861674422D6C /* Pods_iStalk___The_art_of_finding_friends.framework in Frameworks */,
+				01B853F31E99D5E800AA6DBF /* FBSDKCoreKit.framework in Frameworks */,
+				01B853F41E99D5E800AA6DBF /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +83,8 @@
 		193CAA939B78BEA717E9A92F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				01B853F11E99D5E800AA6DBF /* FBSDKCoreKit.framework */,
+				01B853F21E99D5E800AA6DBF /* FBSDKLoginKit.framework */,
 				342C94154ED714217E300299 /* Pods_iStalk___The_art_of_finding_friends.framework */,
 			);
 			name = Frameworks;
@@ -345,6 +353,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"~/Documents/FacebookSDK",
 				);
 				INFOPLIST_FILE = "iStalk - The art of finding friends/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -363,6 +372,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"~/Documents/FacebookSDK",
 				);
 				INFOPLIST_FILE = "iStalk - The art of finding friends/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

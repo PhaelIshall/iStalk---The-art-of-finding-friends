@@ -19,7 +19,20 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.locationManager.requestWhenInUseAuthorization()
+        var loggedIn = false
+        if AccessToken.current != nil {
+            loggedIn = true
+            print("YESSSSS")
+        }
+        if loggedIn == false{
+            let loginButton = LoginButton(readPermissions: [ .publicProfile ])
+            loginButton.center = view.center
+            
+            view.addSubview(loginButton)
+
+        }
         
         if (CLLocationManager.locationServicesEnabled()){
             locationManager.delegate = self
@@ -28,14 +41,13 @@ class ViewController: UIViewController {
             mapView.isMyLocationEnabled = true
             mapView.settings.myLocationButton = true
         }
+
     }
-
-
+    // Once the button is clicked, show the login dialog
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
